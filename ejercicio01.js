@@ -10,4 +10,4 @@ function tablaMultiplicar(numero){
     return titulo;   
 }
 
-console.log(tablaMultiplicar(5))
+console.log(tablaMultiplicar(4))

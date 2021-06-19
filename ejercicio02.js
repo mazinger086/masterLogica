@@ -3,10 +3,10 @@ Los palindromos son palabras que se leen igual aun estando invertidas
 por ejemplo: ana, bob, otto o simbolos raros*/
 
 function palindromo(palabra){
-    let invertido = palabra.split('').reverse().join('');
-
-    return 'Es un palindromo? ' + (invertido === palabra) 
-    
+    let invertido = palabra.split('').reverse().join('');    
+    return 'Es un palindromo? ' + (invertido === palabra)     
 }
 
-console.log(palindromo('daniel'));
+
+
+console.log(palindromo('menem'));
