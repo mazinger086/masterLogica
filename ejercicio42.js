@@ -7,11 +7,12 @@ aleatorio(1,100) // Devuelve: 46
 
 */
 
-// function aleatorio(min, max){
-//     return Math.round(Math.random() * (max - min) + min) ;
-// }
+function aleatorio(min, max){
+    // se le vuelve a sumar min ya que si resto 6 - 1 solo llegaria a 5 y no devolveria 6
+    return Math.round(Math.random() * (max - min) + min);  
+}
 
-// console.log(aleatorio(1,6));
+console.log(aleatorio(1,6));
 
 // let lista = ['a','b','c','d']
 
@@ -25,12 +26,7 @@ aleatorio(1,100) // Devuelve: 46
 
 // console.log(listo(lista));
 
-var i = 2
 
-while(i>=0){
-    console.log('*');
-    i-=2
-}
 
 
 
